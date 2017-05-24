@@ -1,0 +1,21 @@
+body, #frame, #container, #header, #navigation, #footer, #feature, #mainCol, #subCol, #extraCol, .content {position: static; text-align: left; text-indent: 0; background: White; color: Black; border-color: Black; width: auto; height: auto; display: block; float: none; min-height: 0; margin: 0; padding: 0;}
+ 
+body {
+	background: White;
+	font-size: 10pt !important;
+	color: Black;
+	padding: 0 3%;
+	}
+ 
+.hide, .nav {
+	display: none !important;
+	}
+ 
+a:link, a:visited {
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+	}
+	
+.L img, .R img, #me img, #you img {width: 99%;}
+#word h2 em {clear: both;}
